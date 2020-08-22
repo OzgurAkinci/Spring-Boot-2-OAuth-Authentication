@@ -24,7 +24,7 @@ import com.project.app.domain.CustomListCollection;
 import com.project.app.domain.SUser;
 import com.project.app.repository.SUserDao;
 
-@RequestMapping("/fw/user")
+@RequestMapping("/app/user")
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @Component
