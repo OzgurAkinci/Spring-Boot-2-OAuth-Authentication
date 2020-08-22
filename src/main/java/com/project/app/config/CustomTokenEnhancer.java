@@ -36,7 +36,6 @@ public class CustomTokenEnhancer implements TokenEnhancer {
         additionalInformation.put("id", daoSUser.getId());
         additionalInformation.put("username", daoSUser.getUsername());
         additionalInformation.put("email", daoSUser.getEmail());
-        additionalInformation.put("fullname", daoSUser.getName() + " " + daoSUser.getSurname());
         additionalInformation.put("permissions", providedAppDao.getUserDao().findPermissionsByUser(daoSUser.getId()));
         List<String> roles = new ArrayList<String>();
         for (SRole role : providedAppDao.getUserRoleDao().findByUser(daoSUser.getId())) {
