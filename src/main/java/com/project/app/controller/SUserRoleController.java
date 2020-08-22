@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.project.app.domain.SUserRole;
 import com.project.app.repository.SUserRoleDao;
 
-@RequestMapping("/fw/userRole")
+@RequestMapping("/app/userRole")
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @Component
