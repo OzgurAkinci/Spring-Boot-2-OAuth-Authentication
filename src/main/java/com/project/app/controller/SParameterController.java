@@ -25,7 +25,7 @@ import com.project.app.domain.SParameter;
 import com.project.app.domain.SUser;
 import com.project.app.repository.SParameterDao;
 
-@RequestMapping("/app/parameter")
+@RequestMapping("/parameter")
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @Component
