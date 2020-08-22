@@ -6,13 +6,13 @@ Spring Boot 2 - OAuth Authentication
 - Authorization Tab\
   Type: Basic Auth\
   Username: appsecurity\
-  Password: appsecurity\
+  Password: appsecurity
   
 - Header Tab\
   Content-Type: application/x-www-form-urlencoded\
-  Authorization: Basic YXBwc2VjdXJpdHk6YXBwc2VjdXJpdHk=\
+  Authorization: Basic YXBwc2VjdXJpdHk6YXBwc2VjdXJpdHk=
   
 - Body Tab\
   grant_type: password\
   username: superuser\
-  password: superpassword\
+  password: superpassword
