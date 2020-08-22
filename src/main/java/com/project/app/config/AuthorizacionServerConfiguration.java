@@ -38,7 +38,7 @@ public class AuthorizacionServerConfiguration extends AuthorizationServerConfigu
                 .inMemory()
                 .withClient(CLIENT_ID)
                 .secret("{noop}" + CLIENT_SECRET)
-                .authorizedGrantTypes("password", "refresh_token")
+                .authorizedGrantTypes(GRANT_TYPE, "refresh_token")
                 .scopes(SCOPE_READ, SCOPE_WRITE)
                 .accessTokenValiditySeconds(ACCESS_TOKEN_VALIDITY_SECONDS).
                 refreshTokenValiditySeconds(REFRESH_TOKEN_VALIDITY_SECONDS);
