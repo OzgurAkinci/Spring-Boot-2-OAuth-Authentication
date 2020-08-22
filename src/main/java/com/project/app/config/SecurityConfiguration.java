@@ -50,8 +50,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers("/oauth/token").permitAll()
                 .antMatchers("/socket/**").authenticated()
-                .antMatchers("/appBackend/**").authenticated()
-                .antMatchers("/appBackend/websocket/**").permitAll();
+                .antMatchers("/appBackend/**").authenticated();
     }
 
     @Bean
