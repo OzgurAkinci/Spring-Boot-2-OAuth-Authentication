@@ -25,7 +25,7 @@ import com.project.app.domain.SRole;
 import com.project.app.domain.SUser;
 import com.project.app.repository.SRoleDao;
 
-@RequestMapping("/fw/role")
+@RequestMapping("/app/role")
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @Component
