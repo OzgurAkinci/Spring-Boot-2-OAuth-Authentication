@@ -11,35 +11,7 @@ databaseChangeLog:
                 valueComputed: nextval('s_role_seq')
             - column:
                 name: role_name
-                value: "ROLE_ADMIN"
-                
-   - changeSet:
-       id: 2
-       author: system
-       changes:
-        - insert:
-            tableName: s_role
-            columns:
-            - column:
-                name: id
-                valueComputed: nextval('s_role_seq')
-            - column:
-                name: role_name
-                value: "ROLE_USER"
-                
-   - changeSet:
-       id: 3
-       author: system
-       changes:
-        - insert:
-            tableName: s_role
-            columns:
-            - column:
-                name: id
-                valueComputed: nextval('s_role_seq')
-            - column:
-                name: role_name
-                value: "NORMAL"
+                value: "ADMIN"
                 
    - changeSet:
        id: 4

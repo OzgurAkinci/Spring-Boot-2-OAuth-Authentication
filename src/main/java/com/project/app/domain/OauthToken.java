@@ -40,7 +40,4 @@ public class OauthToken implements Serializable {
     @Column(name = "refresh_token")
     private String refreshToken;
 
-    @Column(name = "tenant_id")
-    private String tenantId;
-
 }
