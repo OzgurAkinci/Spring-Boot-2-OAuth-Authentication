@@ -18,8 +18,8 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 @EnableAuthorizationServer
 public class AuthorizationServerConfiguration extends AuthorizationServerConfigurerAdapter {
 
-    static final String CLIENT_ID = "appsecurity";
-    static final String CLIENT_SECRET = "appsecurity";
+    static final String CLIENT_ID = "appSecurity";
+    static final String CLIENT_SECRET = "appSecurity";
     static final String GRANT_TYPE = "password";
     static final String SCOPE_READ = "read";
     static final String SCOPE_WRITE = "write";
