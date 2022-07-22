@@ -8,8 +8,8 @@ Authorization Tab
 
 ```bash
 Type: Basic Auth
-Username: appsecurity
-Password: appsecurity
+Username: appSecurity
+Password: appSecurity
 ```
 
 Header Tab
